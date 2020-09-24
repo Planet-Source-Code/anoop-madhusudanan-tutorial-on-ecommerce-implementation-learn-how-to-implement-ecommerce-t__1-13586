@@ -1,0 +1,286 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Implementation</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="animate.js">
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" onload="dynAnimation()">
+
+<table border="0" width="100%">
+  <tr>
+    <td width="21%"><a href="http://www.geocities.com/anoopj12"><img border="0" src="images/anoop.gif" width="112" height="110"></a></td>
+    <td width="79%">
+      <table border="0" width="100%" cellspacing="1" height="41">
+        <tr>
+          <td width="7%" height="9"></td>
+          <td width="61%" colspan="2" bgcolor="#CC3399" height="9">
+            <p align="center"><b><font face="ARIAL,VERDANA" size="2">ANOOP'S
+            TUTORIAL ON</font></b></td>
+          <td width="32%" height="9"></td>
+        </tr>
+        <tr>
+          <td width="6%" colspan="2" height="30"></td>
+          <td width="94%" colspan="2" bgcolor="#6666FF" height="30">
+            <p align="center"><b><font face="ARIAL,VERDANA" color="#FFFFFF">ECOMMERCE
+            TRANSACTIONS</font></b></td>
+        </tr>
+        <tr>
+          <td width="100%" colspan="4" height="5"></td>
+        </tr>
+        <tr>
+          <td width="100%" colspan="4" height="25">
+            <p align="center" dynamicanimation="fpAnimwaveWordsFP1" id="fpAnimwaveWordsFP1" style="position: relative !important; visibility: hidden" language="Javascript1.2"><b><font color="#000000"><font face="verdana,arial" size="1">Are
+            You A Web/Software Company? </font><a href="http://www.geocities.com/anoopj12"><font face="verdana,arial" size="1" color="#000000">Visit
+            Anoop's Vision Center</font></a><font face="verdana,arial" size="1">.</font></font></b></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="2" bgcolor="#000000" height="25" nowrap>
+      <p align="center"><b><font color="#FFFFFF" face="verdana,arial" size="2">&nbsp;</font><a href="introduction.htm"><font face="verdana,arial" size="2" color="#FFFFFF">Introduction</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="concept.htm"><font face="verdana,arial" size="2" color="#FFFFFF">The
+      Concept</font></a><font color="#FFFFFF" face="verdana,arial" size="2"> | </font><a href="implementation.htm"><font face="verdana,arial" size="2" color="#FFFFFF">Implementation</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="project.htm"><font face="verdana,arial" size="2" color="#FFFFFF">Project</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="contact.htm"><font face="verdana,arial" size="2" color="#FFFFFF">Contact
+      Me</font></a></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="2">
+      <table border="2" width="100%" height="73" bordercolor="#000000" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="100%" height="30" bgcolor="#6666FF"><b><font face="arial,verdana" size="4">&nbsp;<font color="#FFFFFF">IMPLEMENTATION</font></font></b></td>
+        </tr>
+        <tr>
+          <td width="100%" height="61">
+            <table border="0" width="100%" height="100">
+              <tr>
+                <td width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="33"><b><font face="verdana,arial)" size="2">1.
+                  COMMUNICATION BETWEEN COMPUTERS</font></b></td>
+              </tr>
+              <tr>
+                <td width="100%" height="1" bgcolor="#000000"><img border="0" src="images/1ptrans.gif" width="1" height="1"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="9"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="8"><font face="verdana,arial" size="2">Hey,
+                  go out and have a Coke if you are getting bored. Better, if
+                  you need refreshment, just take a <a href="http://www.geocities.com/anoopj12" target="_blank"><font color="#000000">visit
+                  to my site</font></a> and then come back :-). A little more
+                  theory now - before going to the Project section, to do what
+                  you learned 'practically'.</font>
+                  <p><font face="verdana,arial" size="2">Before going any step
+                  further, you need a basic idea of computer communication. So,
+                  I will give you an idea about Network Interfaces and Network
+                  Protocols for developing transaction applications. Even if you
+                  are getting bored, stay with me.</font></p>
+                  <p><font face="verdana,arial" size="2">For understanding how
+                  two computers communicate each other, you have to know the
+                  terms 'Network Protocols' and 'Network Interfaces', and
+                  surely, the difference between them. After all, remember that
+                  I am explaining them from a general angle, and not from the
+                  perspective of any specific operating system.</font>&nbsp;</p>
+                  <p><font face="verdana,arial" size="2"><b>1.1) Network
+                  Protocols:</b>&nbsp;</font>
+                  <p><font face="verdana,arial" size="2">Now let me explain what
+                  is a Network Protocol (or Transport Protocol). A Network
+                  Protocol &quot;packages data that is to be sent on the network
+                  in a way that the computer on the receiving end can
+                  understand.&quot; Simply, they are responsible for
+                  transferring data over a network.</font>
+                  <p><font face="verdana,arial" size="2">Now, read the next
+                  line, by keeping your shoes in place of your hat - so that you
+                  will never forget it in your life: <i>&quot;</i></font><b><font face="verdana,arial" size="1">TCP/IP,
+                  UDP/IP, XNS, NetBEUI, and IPX are Transport Protocols. They
+                  are used for transferring data over a network.</font></b><font face="verdana,arial" size="2"><i>&quot;.</i></font>
+                  <p><font face="verdana,arial" size="2">In fact, you don't have
+                  to worry much about Network Protocols. This is simply because,
+                  as a programmer, you are going to access these underlying
+                  protocols through Network Interfaces, which are described
+                  below.</font>
+                  <p><font face="verdana,arial" size="2"><b>1.2) Network
+                  Interfaces:</b>&nbsp;</font>
+                  <p><font face="verdana,arial" size="2">It is very important to
+                  understand the difference between Network (Transport)
+                  Protocols and Network Interfaces. As I already pointed,
+                  network interfaces are used to provide a means for
+                  applications (or programs) to access the underlying protocols,
+                  which actually 'transfers' the data over a network.</font>
+                  <p><font face="verdana,arial" size="2">Well, again it is the
+                  time to replace your hat with your shoes: Here is the next
+                  important point. <i>&quot;</i></font><b><font face="verdana,arial" size="1">Sockets,
+                  Net BIOS, Named Pipes and NetDDE are the popular Network
+                  Interfaces</font></b><i><font face="verdana,arial" size="2">. </font></i><font face="verdana,arial" size="1"><b>These
+                  interfaces do not define how the data is actually transferred
+                  (which is actually the job of the underlying Network Protocol)</b></font><i><font face="verdana,arial" size="2">&quot;</font></i><font face="verdana,arial" size="2">.
+                  (I am not discussing issues like name resolution/physical
+                  address resolution here, because it is beyond the scope of
+                  this article. Anyway, I would like to tell you that each
+                  interface - say Named Pipes or Net BIOS - has its own method
+                  of resolving addresses). You can use any of these interfaces
+                  to implement communication facilities in your applications.
+                  (Based on your purpose, Operating System and development
+                  environment). For example, you can develop networking
+                  applications that uses TCP/IP protocol, by using the Socket
+                  Interface from Visual Basic - i.e. by using&nbsp; the WinSock
+                  (Windows Sockets) API provided by Microsoft.</font></td>
+              </tr>
+              <tr>
+                <td width="100%" height="8"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="33"><b><font face="verdana,arial)" size="2">2.
+                  USING TCP/IP FOR MANAGING TRANSACTIONS</font></b></td>
+              </tr>
+              <tr>
+                <td width="100%" height="1" bgcolor="#000000"><img border="0" src="images/1ptrans.gif" width="1" height="1"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="2"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="2"><font face="verdana,arial" size="2">You
+                  may wonder - &quot;why this man is discussing all these stupid
+                  network stuff, to discuss transactions?&quot;. The reason is
+                  simple. You need to understand the basic concepts of
+                  networking (the facts I described above), to understand the <i>Implementation
+                  </i>of ECommerce transactions fully - at least in my opinion.</font>
+                  <p><font face="verdana,arial" size="2">OK, as you already
+                  read, almost any computer in the net knows one common, simple
+                  (to them) language - and that is nothing other than TCP/IP.
+                  So, computers in the net generally uses TCP/IP - in most cases
+                  - to communicate each other. For example, consider the way you
+                  browse Planet Source Code. You direct your browser to PSC, it
+                  contacts PSC web server, and then sends/gets required
+                  information to display. I may write later about the working of
+                  web servers, mail servers etc - but now, let me continue by
+                  sticking to the subject.</font></td>
+              </tr>
+              <tr>
+                <td width="100%" height="2"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="33"><b><font face="verdana,arial)" size="2">3.
+                  IMPLEMENTING SOCKET INTERFACE</font></b></td>
+              </tr>
+              <tr>
+                <td width="100%" height="1" bgcolor="#000000"><img border="0" src="images/1ptrans.gif" width="1" height="1"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="1"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="0"><p><font face="verdana,arial" size="2">Windows developers can
+                  have the luxury of using Winsock API in their applications, to
+                  manage TCP/IP connections. In Visual Basic, you can use the
+                  Microsoft Winsock Control, for implementing TCP/IP facilities
+                  in your application. The basic logic of any TCP/IP application
+                  or service - including World Wide Web, FTP applications, Chat
+                  programs etc - remains the same.&nbsp;</font><p><font face="verdana,arial" size="2">(I
+                  think you are comfortable with&nbsp; basic socket
+                  implementation - at least to write a simple chat program. But
+                  if you are not familiar, don't worry. Just download few simple
+                  multi user chat programs/chat tutorials from
+                  Planet-Source-Code, and learn the implementation well)</font>
+                  <p><font face="verdana,arial" size="2">The basic
+                  implementation of an ECommerce transaction with WinSock is
+                  simple. Once you signed up yourself with a 3rd Party Service
+                  to simplify your transactions between the acquirer, you can
+                  easily act as their client to manage transactions (see the section
+                  'The Concepts' if you are getting confused). As in the case of
+                  any ECommerce transaction, the process is so simple</font></p>
+                  <ul>
+                    <li><font face="verdana,arial" size="2">Open a socket by
+                      using the given IP (most probably, the IP of the 3rd Party
+                      Service Provider) and Port (they will give you a port
+                      number)</font></li>
+                    <li><font face="verdana,arial" size="2">Exchange the data
+                      (like the credit card number, related control string etc)</font></li>
+                    <li><font face="verdana,arial" size="2">Get the reply if any</font></li>
+                    <li><font face="verdana,arial" size="2">Close the socket</font></li>
+                  </ul>
+                  <p><font face="verdana,arial" size="2">Once a socket is
+                  opened, the exchange of data is regulated with a given set of
+                  protocols. Most third party service providers have their own
+                  protocols (they will provide the documentation to you) - to
+                  manage these transactions.</font></p>
+                  <p><font face="verdana,arial" size="2">And of course, now you
+                  completed the basic lessons necessary to understand ECommerce
+                  transaction implementation. Now tight up your seatbelts, and
+                  go to the project section.</font></td>
+              </tr>
+              <tr>
+                <td width="100%" height="20"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="1"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="3" height="79">
+  <tr>
+    <td width="100%" colspan="2" height="11">
+      <p align="center"><b><font color="#000000"><font face="verdana,arial" size="2">&nbsp;</font><a href="introduction.htm"><font face="verdana,arial" size="2" color="#000000">Introduction</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="concept.htm"><font face="verdana,arial" size="2" color="#000000">The
+      Concept</font></a><font color="#FFFFFF" face="verdana,arial" size="2"> | </font><a href="implementation.htm"><font face="verdana,arial" size="2" color="#000000">Implementation</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="project.htm"><font face="verdana,arial" size="2" color="#000000">Project</font></a><font color="#FFFFFF" face="verdana,arial" size="2">
+      | </font><a href="contact.htm"><font face="verdana,arial" size="2" color="#000000">Contact
+      Me</font></a></font></b></td>
+  </tr>
+  <tr>
+    <td width="49%" height="10">
+    </td>
+    <td width="51%" height="10">
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="2" height="2" bgcolor="#000000"><img border="0" src="images/1ptrans.gif" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td width="49%" height="25" bgcolor="#6666FF">
+      <font face="verdana,arial" size="1" color="#000000">&nbsp;</font><b><a href="http://www.geocities.com/anoopj12"><font face="verdana,arial" size="1" color="#FFFFFF">http://www.geocities.com/anoopj12</font></a></b></td>
+    <td width="51%" height="25" bgcolor="#6666FF">
+      <font color="#FFFFFF"><a href="mailto:anoopj12@yahoo.com"><font face="verdana,arial" size="1" color="#FFFFFF">anoopj12@yahoo.com</font></a><font face="verdana,arial" size="1">
+      , </font></font><a href="mailto:vbaspguy@hotmail.com"><font face="verdana,arial" size="1" color="#FFFFFF">vbaspguy@hotmail.com</font></a></td>
+  </tr>
+  <tr>
+    <td width="100%" height="15" colspan="2">
+      <p align="center"><font face="verdana,arial" size="1" color="#000000">The
+      article and its concepts are explicitly written/developed by </font><a href="anoopj12@yahoo.com"><font face="verdana,arial" size="1" color="#000000"> Anoop.
+      M</font></a><font face="verdana,arial" size="1" color="#000000">. </font></p>
+      <p align="center"><font size="1" color="#000000" face="arial,verdana">Any
+      use of this article, or part of it (including associated projects), with
+      out Anoop's written permission is not allowed. However, you can redistribute
+      this article, as long as all the files in the original package (the
+      package created by Anoop for Planet-Source-Code.com) are there in the
+      redistribution package.</font></td>
+  </tr>
+</table>
+
+</body>
+
+</html>
